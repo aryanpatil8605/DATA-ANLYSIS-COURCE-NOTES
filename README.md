@@ -1,4 +1,4 @@
-Sure! Here are detailed notes on the requested topics, with examples and simplified explanations:
+# DATA ANALYSIS COURCE NOTES
 
 ---
 
