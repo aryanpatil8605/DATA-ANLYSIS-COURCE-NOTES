@@ -222,7 +222,7 @@ list.count(x): Returns the number of occurrences of x in the list.
 list.clear(): Removes all items from the list.
 list.extend(iterable): Extends the list by appending all items from the iterable.
 
-  ```python
+ ```python
 # List operations
 my_list = [1, 2, 3, 4, 5]
 
@@ -275,9 +275,8 @@ print(my_list)  # Output: []
 
 # Extend the list
 my_list.extend([1, 2, 3])
-print(my_list)  # Output: [1, 2, 3]
-
-  ```
+print(my_list)  # Output: [1, 2, 3] 
+```
 
 ### List Comprehension, Problem Solving
 - **List Comprehension**:
