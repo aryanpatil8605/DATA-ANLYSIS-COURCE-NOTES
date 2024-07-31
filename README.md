@@ -180,8 +180,9 @@ print(fruits)
 
 ### Lists Slicing, Iteration, Functions
 - **Slicing**:
-  ```python
-  # Given list
+
+ ```python
+# Given list
 my_list = [10, 20, 30, 40, 50, 60, 70]
 
 # Slice from index 1 to 4
@@ -198,29 +199,31 @@ print(my_list[::2])  # Output: [10, 30, 50, 70]
 
 # Reverse the list
 print(my_list[::-1])  # Output: [70, 60, 50, 40, 30, 20, 10]
-
   ```
+
 - **Iteration**:
+
   ```python
   for fruit in fruits:
       print(fruit)
   ```
+  
 - **Functions**:
 Common List Functions and Methods
-len(list): Returns the number of items in the list.
-max(list): Returns the largest item in the list.
-min(list): Returns the smallest item in the list.
-sum(list): Returns the sum of all items in the list.
-list.append(x): Adds an item x to the end of the list.
-list.insert(i, x): Inserts an item x at position i.
-list.remove(x): Removes the first occurrence of x from the list.
-list.pop([i]): Removes and returns the item at position i (default is the last item).
-list.sort(): Sorts the items of the list in place.
-list.reverse(): Reverses the elements of the list in place.
-list.index(x): Returns the index of the first occurrence of x in the list.
-list.count(x): Returns the number of occurrences of x in the list.
-list.clear(): Removes all items from the list.
-list.extend(iterable): Extends the list by appending all items from the iterable.
+1. len(list): Returns the number of items in the list.
+2. max(list): Returns the largest item in the list.
+3. min(list): Returns the smallest item in the list.
+4. sum(list): Returns the sum of all items in the list.
+5. list.append(x): Adds an item x to the end of the list.
+6. list.insert(i, x): Inserts an item x at position i.
+7. list.remove(x): Removes the first occurrence of x from the list.
+8. list.pop([i]): Removes and returns the item at position i (default is the last item).
+9. list.sort(): Sorts the items of the list in place.
+10. list.reverse(): Reverses the elements of the list in place.
+11. list.index(x): Returns the index of the first occurrence of x in the list.
+12. list.count(x): Returns the number of occurrences of x in the list.
+13. list.clear(): Removes all items from the list.
+14. list.extend(iterable): Extends the list by appending all items from the iterable.
 
  ```python
 # List operations
