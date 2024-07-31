@@ -181,7 +181,24 @@ print(fruits)
 ### Lists Slicing, Iteration, Functions
 - **Slicing**:
   ```python
-  print(fruits[1:3])
+  # Given list
+my_list = [10, 20, 30, 40, 50, 60, 70]
+
+# Slice from index 1 to 4
+print(my_list[1:5])  # Output: [20, 30, 40, 50]
+
+# Slice from beginning to index 3
+print(my_list[:4])  # Output: [10, 20, 30, 40]
+
+# Slice from index 3 to end
+print(my_list[3:])  # Output: [40, 50, 60, 70]
+
+# Slice with step 2
+print(my_list[::2])  # Output: [10, 30, 50, 70]
+
+# Reverse the list
+print(my_list[::-1])  # Output: [70, 60, 50, 40, 30, 20, 10]
+
   ```
 - **Iteration**:
   ```python
@@ -189,9 +206,77 @@ print(fruits)
       print(fruit)
   ```
 - **Functions**:
+Common List Functions and Methods
+len(list): Returns the number of items in the list.
+max(list): Returns the largest item in the list.
+min(list): Returns the smallest item in the list.
+sum(list): Returns the sum of all items in the list.
+list.append(x): Adds an item x to the end of the list.
+list.insert(i, x): Inserts an item x at position i.
+list.remove(x): Removes the first occurrence of x from the list.
+list.pop([i]): Removes and returns the item at position i (default is the last item).
+list.sort(): Sorts the items of the list in place.
+list.reverse(): Reverses the elements of the list in place.
+list.index(x): Returns the index of the first occurrence of x in the list.
+list.count(x): Returns the number of occurrences of x in the list.
+list.clear(): Removes all items from the list.
+list.extend(iterable): Extends the list by appending all items from the iterable.
+
   ```python
-  fruits.append("orange")
-  print(fruits)
+# List operations
+my_list = [1, 2, 3, 4, 5]
+
+# Length of the list
+print(len(my_list))  # Output: 5
+
+# Maximum value in the list
+print(max(my_list))  # Output: 5
+
+# Minimum value in the list
+print(min(my_list))  # Output: 1
+
+# Sum of all items in the list
+print(sum(my_list))  # Output: 15
+
+# Append an item to the list
+my_list.append(6)
+print(my_list)  # Output: [1, 2, 3, 4, 5, 6]
+
+# Insert an item at a specific position
+my_list.insert(0, 0)
+print(my_list)  # Output: [0, 1, 2, 3, 4, 5, 6]
+
+# Remove an item from the list
+my_list.remove(3)
+print(my_list)  # Output: [0, 1, 2, 4, 5, 6]
+
+# Pop an item from the list
+popped_item = my_list.pop()
+print(popped_item)  # Output: 6
+print(my_list)      # Output: [0, 1, 2, 4, 5]
+
+# Sort the list
+my_list.sort()
+print(my_list)  # Output: [0, 1, 2, 4, 5]
+
+# Reverse the list
+my_list.reverse()
+print(my_list)  # Output: [5, 4, 2, 1, 0]
+
+# Index of an item
+print(my_list.index(4))  # Output: 1
+
+# Count occurrences of an item
+print(my_list.count(2))  # Output: 1
+
+# Clear the list
+my_list.clear()
+print(my_list)  # Output: []
+
+# Extend the list
+my_list.extend([1, 2, 3])
+print(my_list)  # Output: [1, 2, 3]
+
   ```
 
 ### List Comprehension, Problem Solving
